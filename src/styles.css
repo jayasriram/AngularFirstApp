@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.container{
+    padding-top: 10px;
+}
+
+body{   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color:cornflowerblue;
+}
+
+ div#list {
+    color: #66FFFF;   
+    padding: 20px;    
+    height: 450px;
+    }
+
+mat-grid-tile{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color:whitesmoke;
+}
+
+.sec1 {
+    background:#0066FF;    
+  }
+  
+  .sec2 {
+    background:#0099FF;  
+  }
+  
+  .sec3 {
+    background: #00CCCC;
+
+  }
+  
+  .sec4 {
+    background: #00CC99;
+  }
+
+  .sec1, .sec2, .sec3, .sec4 { 
+    background:black;
+    padding-top:20px;
+    height: 350px;    
+    text-align:center;
+    color:whitesmoke;
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
